@@ -8,11 +8,6 @@
 
 我使用 PostgreSQL 作为数据库。它开源、稳定，迄今为止以及发展超过三十年，可以说是久经考验。配合相应插件，能替代消息队列、缓存和全文搜索等组件，有时候一个 PostgreSQL 就能解决后端开发的大部分需求
 
-参考链接
-
-- [PostgreSQL官网](https://www.postgresql.org/)
-- [技术极简主义：一切皆用Postgres](https://blog.vonng.com/pg/just-use-pg/)
-
 ## Python 开发
 
 **uv**
