@@ -25,7 +25,7 @@ uv 是基于 Rust 开发的，性能优异，不仅能安装第三方库，还�
 
 使用 uv 运行脚本不需要显式的激活虚拟环境
 
-```python
+```shell
 uv python list  # 查看当前已安装的 python 版本和可以安装的版本
 
 uv venv .venv   # 创建一个 .venv 虚拟环境
