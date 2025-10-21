@@ -26,22 +26,41 @@ uv 是基于 Rust 开发的，性能优异，不仅能安装第三方库，还�
 使用 uv 运行脚本不需要显式的激活虚拟环境
 
 ```shell
-uv python list  # 查看当前已安装的 python 版本和可以安装的版本
+# 查看当前已安装的 python 版本和可以安装的版本
+uv python list 
 
-uv venv .venv   # 创建一个 .venv 虚拟环境
+# 创建一个 .venv 虚拟环境
+uv venv .venv   
 
-uv add fastapi  # 下载指定库
+# 下载指定库
+uv add fastapi  
 
-uv remove fastapi # 删除指定库
+# 删除指定库
+uv remove fastapi 
 
-uv install python 3.14 # 安装指定版本的 python
+# 安装指定版本的 python
+uv install python 3.14 
 
-uv run python main.py  # 运行 main.py 不用激活环境
+# 运行 main.py 不用激活环境
+uv run python main.py  
 ```
 
 ### Ruff
 
 Ruff 是一个用 Rust 开发的 Python 代码检查和格式化工具，可以自定义和修正代码风格。它在团队开发中非常有用，能保证代码风格统一、减少不必要的争论
+
+- 基本操作
+
+```shell
+# 安装
+uv add ruff
+
+# 检查代码
+uv run ruff check
+
+# 修复
+uv run ruff check --fix
+```
 
 ### Pydantic
 
