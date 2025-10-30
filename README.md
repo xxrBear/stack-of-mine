@@ -74,7 +74,7 @@ uv run ruff check --fix
 
 ### Django
 
-本人最喜爱的 Python Web 框架，具有强大的能力和悠久的历史，是 Insgrem 的早期支柱
+个人最喜爱的 Python Web 框架，具有强大的能力和悠久的历史，是 Instagram 的早期支柱
 
 ## 消息队列
 
