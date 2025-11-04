@@ -74,7 +74,7 @@ uv run ruff check --fix
 
 ### Django
 
-个人最喜爱的 Python Web 框架，具有强大的能力和悠久的历史，是 Instagram 的早期支柱
+个人最喜爱的 Python Web 框架，具有强大的能力和悠久的历史。今年是 Django 诞生的第 20 年，它依旧有着活跃的开发人员和维护人员。Instagram 一开始使用 Django 构建后端项目，而当用户突破百万时，依旧没有出现性能瓶颈，足见 Django 的强劲。
 
 ## 消息队列
 
