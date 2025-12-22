@@ -10,10 +10,14 @@
 
 PostgreSQL 是世界上最强大的开源关系型数据库。它开源、稳定，迄今为止以及发展超过三十年，可以说是久经考验。配合相应插件，能替代消息队列、缓存和全文搜索等组件，有时候一个 PostgreSQL 就能解决后端开发的大部分需求
 
+- [官方手册](https://postgresql.ac.cn/docs/)
+
 
 ### Redis
 
 Redis 意为远程字典服务器，自 2009 年诞生以来，它迅速成为最著名的非关系型数据库之一，虽然近些年来受到开源协议变更的影响，Redis 是否是一个开源软件现在有点儿争议，但这并不影响它的地位，它依旧广泛用于各类公司的系统中
+
+- [官方文档](https://redis.io/docs/latest/)
 
 ## Python 开发
 
@@ -43,6 +47,8 @@ uv install python 3.14
 uv run python main.py  
 ```
 
+- [官方文档](https://docs.astral.sh/uv/)
+
 ### Ruff
 
 Ruff 是一个用 Rust 开发的 Python 代码检查和格式化工具，可以自定义和修正代码风格。它在团队开发中非常有用，能保证代码风格统一、减少不必要的争论
@@ -60,21 +66,31 @@ uv run ruff check
 uv run ruff check --fix
 ```
 
+- [官方文档](https://docs.astral.sh/ruff/)
+
 ### Pydantic
 
 这是一个用 Rust 编写的数据验证工具，可以帮你检查和验证数据格式
+
+- [官方文档](https://docs.pydantic.dev/latest/)
 
 ### pytest
 
 这是一个现代的 Python 测试框架，比内置的 unittest 更符合 Python 开发风格，功能更丰富
 
+- [官方文档](https://docs.pytest.org/en/stable/)
+
 ### FastAPI
 
 这是目前最流行的 Python 框架，能让你快速、高效地开发后端 API
 
+- [官方文档](https://fastapi.tiangolo.com/)
+
 ### Django
 
 个人最喜爱的 Python Web 框架，具有强大的能力和悠久的历史。今年是 Django 诞生的第 20 年，它依旧有着活跃的开发人员和维护人员。Instagram 一开始使用 Django 构建后端项目，而当用户突破百万时，依旧没有出现性能瓶颈，足见 Django 的强劲。
+
+- [官方文档](https://www.djangoproject.com/start/overview/)
 
 ## 消息队列
 
@@ -82,9 +98,12 @@ uv run ruff check --fix
 
 RabbitMQ 是用 Erlang 编写的消息队列，性能稳定，功能强大。它可以处理大量异步任务和消息传递
 
+- [官方文档](https://www.rabbitmq.com/docs)
+
 ## 容器
 
 ### Docker
 
 经典的容器化工具，使用广泛。它可以把应用及其依赖打包在容器中，实现快速部署和一致运行环境，同时简化运维管理，提高系统的可靠性和可移植性
 
+- [官方文档](https://docs.docker.com/)
